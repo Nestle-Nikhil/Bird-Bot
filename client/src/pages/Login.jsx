@@ -3,7 +3,7 @@ import { useAppContext } from '../context/AppContext.jsx';
 import toast from 'react-hot-toast';
 const Login = () => {
 
-const [state, setState] = useState("login");
+const [state, setState] = useState("sign up");
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
